@@ -283,6 +283,23 @@ void GlobalControls::paint(juce::Graphics& g)
 
     g.drawRect(localBounds);
 }
+
+void GlobalControls::resized()
+{
+    auto bounds = getLocalBounds();
+    using namespace juce;
+
+    FlexBox flexBox;
+    flexBox.flexDirection = FlexBox::Direction::row;
+    flexBox.flexWrap = FlexBox::Wrap::noWrap;
+
+    flexBox.items.add(FlexItem(inGainSlider).withFlex(1.f));
+    flexBox.items.add(FlexItem(lowMidXoverSlider).withFlex(1.f));
+    flexBox.items.add(FlexItem(midHighXoverSlider).withFlex(1.f));
+    flexBox.items.add(FlexItem(outGainSlider).withFlex(1.f));
+
+    flexBox.performLayout(bounds);
+}
 //==============================================================================
 SimpleMBCompAudioProcessorEditor::SimpleMBCompAudioProcessorEditor (SimpleMBCompAudioProcessor& p)
     : AudioProcessorEditor (&p), audioProcessor (p)
