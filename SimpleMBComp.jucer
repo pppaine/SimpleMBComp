@@ -18,7 +18,8 @@
   <EXPORTFORMATS>
     <VS2022 targetFolder="Builds/VisualStudio2022">
       <CONFIGURATIONS>
-        <CONFIGURATION isDebug="1" name="Debug" targetName="SimpleMBComp" enablePluginBinaryCopyStep="1"/>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="SimpleMBComp" enablePluginBinaryCopyStep="1"
+                       vst3BinaryLocation="C:\Users\Peter\Documents\Programming\VST3"/>
         <CONFIGURATION isDebug="0" name="Release" targetName="SimpleMBComp"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
