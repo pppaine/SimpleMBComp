@@ -65,7 +65,7 @@
           uiopen_Normal="0">
     <PLUGIN name="SimpleMBComp" format="VST3" category="Fx" manufacturer="PPPaine"
             version="1.0.0" file="C:\Users\Peter\Documents\Programming\VST3\SimpleMBComp.vst3"
-            uniqueId="7a8d424" isInstrument="0" fileTime="17d69459ec9" infoUpdateTime="17d6948bc13"
+            uniqueId="7a8d424" isInstrument="0" fileTime="17d69459ec9" infoUpdateTime="17d69543029"
             numInputs="2" numOutputs="2" isShell="0" uid="e95d222c"/>
     <STATE>191.VMjLgXK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
     <LAYOUT>
@@ -77,6 +77,24 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
+  <FILTER uid="6" x="0.49375" y="0.3660531697341513" uiLastX_Normal="133"
+          uiLastY_Normal="318" uiopen_Normal="0">
+    <PLUGIN name="vstPlayer" format="VST3" category="Instrument|Synth" manufacturer="yourcompany"
+            version="2.3.4" file="C:\Users\Peter\Documents\Programming\VST3\vstPlayer.vst3"
+            uniqueId="8fdefd46" isInstrument="1" fileTime="17d694efd45" infoUpdateTime="17d6954302a"
+            numInputs="0" numOutputs="0" isShell="0" uid="ee63cfc"/>
+    <STATE>770.VMjLgju....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9PSNy3hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPDTvXTR5AkaA4hKtfjYikWTGIlKHYmKD4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKAoWZUMTRSgzLC4hKtXWdOMCLFElYXcUV30zUZUGMV8DZDk1R1gjPHsFMwfUcQYkVzMlUOgFUEUkQvHjSncSZOYlcCE1YMczXlQ0UZc0ZFkkdmY0SnY1PLYGRBgDLqYjTqsVLY4VTW8DZTMDS1gjPHY2cVgEM2YkV4EkLSQGLogzcHIDR3UkQhsVQFMFNHIDSn4BZiU2cVM1bUY0SnQTZKYGRBgjcEY0X4UkQYgCRRwDZyLzS1cmUXQycVoUdQ01S2fkUZIWUFgDcEYUXqASZHMzaCcUUMcUV30zQWAUUFM1ZIczUMUkLh8VSFckcAcjXmsFags1cUEFLMckVocWQU4VUFgzTUYUVp0zQHUWVFgDM3X0X3EDdTUWRsIVciczUMslQjoFNwLFc2U0Tuc1QYU2XsElcLk1RxTDaig1Mn8zM2HjXxUjUjI2ZwHldzLzS0YmUXkWTs8jKt3hKt3hKt3hKt3hRUACTEEzZh8VVWgkdUYTTmE0UX4BQP4hPqcjXm0jLh4BQP4xPt.0Qt3hKt3hKt3hKtQUUCUEQTg2ZrM1YQcUVDUjQicVP77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
   <CONNECTION srcFilter="5" srcChannel="0" dstFilter="3" dstChannel="0"/>
   <CONNECTION srcFilter="5" srcChannel="1" dstFilter="3" dstChannel="1"/>
+  <CONNECTION srcFilter="6" srcChannel="0" dstFilter="5" dstChannel="0"/>
+  <CONNECTION srcFilter="6" srcChannel="1" dstFilter="5" dstChannel="1"/>
 </FILTERGRAPH>
